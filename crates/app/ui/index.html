@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhotoMaster</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav id="nav">
+  <h1>PhotoMaster</h1>
+  <a href="#inicio">Início</a>
+  <a href="#backup">Backup na nuvem</a>
+  <a href="#duplicadas">Duplicadas e parecidas</a>
+  <a href="#videos">Vídeos curtos</a>
+  <a href="#borradas">Fotos borradas</a>
+  <a href="#otimizar">Otimizar espaço</a>
+  <a href="#melhorar">Melhorar qualidade</a>
+  <a href="#lixeira">Lixeira <span id="trash-count" class="pill" hidden></span></a>
+</nav>
+<main id="main"></main>
+<div id="jobbar" hidden>
+  <div><strong id="job-kind"></strong> <span id="job-msg"></span></div>
+  <progress id="job-progress"></progress>
+</div>
+<div id="toast" hidden></div>
+<dialog id="dialog"></dialog>
+<script src="/app.js"></script>
+</body>
+</html>
